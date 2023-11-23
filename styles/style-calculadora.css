@@ -1,0 +1,130 @@
+
+body{
+    overflow-x: hidden;
+}
+
+/*SECCIÓN HERO*/
+.seccion-hero-calculadora {
+    background-color: rgb(219, 203, 203);
+    height: 100%;
+    padding-top: 80px;
+    background-image: url(../imgs/fondo-diseno-floral-lineal_23-2149130877.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+.hero-calculadora {
+    margin: auto auto;
+    width: 86%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+ }
+ 
+ .hero-titulo-calculadora {
+    padding: 40px;
+    background-color: #daddc0;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(105, 101, 70);
+ 
+ }
+  
+ .que-somos {
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(192, 194, 161);
+    text-align: center;
+    justify-content: center;
+    height: 66%;
+    border: 1px solid rgb(105, 101, 70);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+ 
+ .bienvenido-calculadora span {
+    font-style: italic;
+    font-weight: bold;
+ }
+/*FINAL SECCIÓN HERO*/
+
+
+/* SECCION CALCULADORA */ 
+
+.formulario-calculadora {
+    background-color: #daddc0;
+    width: 86%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border: 2px solid rgb(105, 101, 70);
+}
+
+.calculadora {
+    background-color:#daddc0;
+    height: 100%;
+    background-image: url(../imgs/fondo-diseno-floral-lineal_23-2149130877.jpg);
+    background-position: bottom;
+    background-size: contain;
+
+
+}
+
+.calculadora form {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.calculadora form img {
+    width: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.calculadora form legend {
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: uppercase;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.calculadora form input {
+    border-radius: 20px;
+    border-style: none;
+    padding: 5px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+    border: 1px solid rgb(105, 101, 70);
+}
+
+
+.calculadora form fieldset {
+    border-bottom: 2px solid gray;
+    border-style: none;
+}
+
+.calculadora form button {
+    border-style: none;
+    padding: 8px;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 80%;
+    background-color: rgb(27, 156, 27);
+    border: 1px solid  rgb(27, 156, 27);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.calculadora form button:hover {
+    background-color: white;
+}
+
+.calculadora form label {
+    font-size: 17px;
+}

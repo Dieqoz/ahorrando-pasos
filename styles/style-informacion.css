@@ -1,0 +1,135 @@
+/*SECCIÓN HERO*/
+.seccion-hero {
+   background-color: rgb(219, 203, 203);
+   height: 100%;
+   padding-top: 80px;
+   background-image: url(../imgs/fondo-diseno-floral-lineal_23-2149130877.jpg);
+   background-position: bottom;
+   background-size: cover;
+}
+
+
+.hero {
+   margin: auto auto;
+   width: 86%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.hero-titulo {
+   padding: 40px;
+   background-color: #daddc0;
+   text-align: center;
+   justify-content: center;
+   font-size: 30px;
+   border: 1px solid rgb(105, 101, 70);
+}
+
+.que-somos {
+   padding: 40px;
+   width: 100%;
+   margin: 0 auto;
+   background-color: rgb(192, 194, 161);
+   text-align: center;
+   justify-content: center;
+   height: 66%;
+   font-size: 20px;
+   border: 1px solid rgb(105, 101, 70);
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+
+.bienvenido span {
+   font-style: italic;
+   font-weight: bold;
+}
+
+/*RESPONSIVE HERO*/
+
+/*FIN SECCIÓN HERO*/
+
+
+/*SECCIÓN INFORMACIÓN*/
+.seccion-informacion {
+   width: 86%;
+   margin: 0 auto;
+}
+
+
+details {
+   border: 2px solid rgb(105, 101, 70);
+   border-radius: 5px;
+   margin-bottom: 15px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+
+}
+
+summary {
+   padding: 10px;
+   cursor: pointer;
+   font-weight: bold;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+li{
+   font-size: 18px;
+}
+
+img{
+   width: 80px;
+}
+
+
+.seccion-informacion-titulo {
+   text-align: center;
+   background-color: var(--verde-claro);
+   width: 86%;
+   margin: 60px auto 0 auto;
+   padding: 10px;
+   color: white;
+   border: 1px solid rgb(105, 101, 70);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.seccion-informacion-titulo h1{
+   font-weight: 900;
+   
+}
+
+.carta-informacion-descripcion{
+   font-size: 20px;
+}
+
+.carta-informacion-titulo {
+   font-weight: 300;
+   font-size: 30px;
+   color: rgb(41, 41, 41);
+   background-color: white;
+}
+
+body {
+   background-image: url(../imgs/fondo-diseno-floral-lineal_23-2149130877.jpg);
+   background-position: center;
+   background-size: contain;
+}
+
+.carta-informacion {
+   height: 100%;
+   padding: 50px;
+   border: 1px solid rgb(105, 101, 70);
+
+}
+
+.carta-informacion:nth-child(2n+1) {
+   background-color: #fff4e6;
+}
+
+.carta-informacion:nth-child(2n+2) {
+   background-color: #efdece;
+}
+
+/*FINAL DE SECCIÓN INFORMACIÓN*/
